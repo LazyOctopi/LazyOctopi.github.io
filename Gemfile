@@ -1,14 +1,10 @@
 source 'https://rubygems.org'
 
-group :jekyll_plugins do
-gem 'jekyll'
-gem 'jekyll-sitemap'
-gem 'jemoji'
-gem 'jekyll-redirect-from'
-gem 'jekyll-paginate'
-gem 'jekyll-compose'
-end
+gem 'jekyll', '3.3.1'
 
-gem 'font-awesome-sass'
-gem 'kramdown'
-gem 'rouge'
+group :jekyll_plugins do
+	gem 'jekyll-feed', '0.6.0'
+	gem 'jekyll-seo-tag', '2.1.0'
+	gem 'jekyll-paginate', '1.1.0'
+	gem 'jekyll-sitemap', '1.0.0'
+end
